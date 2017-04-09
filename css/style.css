@@ -1,0 +1,128 @@
+#bg{
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0.7;
+  /* Preserve aspet ratio */
+  width: 100%;
+  height: 100%;
+}
+#control-group{
+  padding-top:8%;
+}
+#mn
+{
+
+  margin-top: 1.5%;
+}
+
+#searchbar
+{
+  font-size:150%;
+  color:#FEBD69;
+}
+#color,#color2
+
+{
+  background-color: gray;
+}
+#lic1,#lic2,#lic3,#lic4,#dp
+{
+  color: #FEBD69;
+  font-size: 120%;
+  font-weight: bold;
+}
+#formid
+{
+  margin-top: 15%;
+  margin-right: 5%;
+}
+.headline
+{
+    margin-top: 10%;
+    font-size: 2.9em;
+    color:black;
+    font-weight: bold;
+    margin-left: 5%;
+    /*font-family: arial;*/
+}
+#button
+{
+  margin-top: 7%;
+  margin-left: 35%;
+  color: black;
+  background-color: white;
+  border-radius: 4px;
+
+}
+#F1,#P1,#E1,#L1,#F2,#F3
+{
+  font-size: 1.4em;
+}
+.color1{
+    display: block;
+    width: 100%;
+    height: 110px;
+    background-color: #232F3E;
+}
+
+#color1
+{
+  background-color: #232F3E;
+}
+.ph1
+{
+  margin-top: 3%;
+  margin-left: 2%;
+  font-weight: bold;
+}
+#Fm1
+{
+  margin-top: 6%;
+  margin-left: 2%;
+
+}
+#search
+{
+  text-decoration: none;
+}
+#btn1:hover,#btn2:hover,#button:hover
+  {
+    background-color:#FEBD69;
+ cursor: pointer;
+
+ }
+ #color2
+ {
+   position:absolute;
+   top:0;
+   right:0;
+ }
+#dp
+{
+  margin-top: 5%;
+  text-decoration: none;
+}
+h1.profitH
+{
+  font-weight: bold;
+  font-style: italic;
+  font-family: sans-serif;
+  margin-left: -5%;
+}
+.abouta
+{
+  font-size:40px;
+  color:#800020;
+  font-family:sans;
+  align-items: center;
+  padding-left: 1%;
+  font-style: italic;
+  font-weight: bold;
+}
+.Newabout
+{
+  font-size: 27px;
+  font-weight: bold;
+  font-family: serif;
+}
