@@ -1,5 +1,5 @@
 
-<!--try123
+<!--
 To generate the bill -->
 <?php
 session_start();
@@ -15,8 +15,8 @@ $idpro=$_SESSION["idpro"];
 $quantity=$_POST["quantity"];
 $name=$_POST["name"];
 $phno= $_POST["phno"];
-$total="";
-$cost="";
+$total=0;
+$cost=0;
 $pr="";
 ?>
 <!DOCTYPE html>

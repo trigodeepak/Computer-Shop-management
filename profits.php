@@ -58,7 +58,7 @@ $con=openDatabase();
     <tr >
       <th style="padding:15px; font-size:20px;color:darkblue;">Profit this week </th>
       <?php
-      $t1="";
+      $t1=0;
       date_default_timezone_set("Asia/Kolkata");
       $mondate = date('Y-m-d',strtotime('last monday', strtotime('tomorrow')));
       $qry = "select profit from customers where date > ".$mondate." ";
@@ -73,7 +73,7 @@ $con=openDatabase();
         <tr>
           <th style="padding:15px; font-size:20px;color:darkblue;">Profit this month </th>
           <?php
-          $t1="";
+          $t1=0;
           $mon=date('m');
           $year=date('Y');
           $qry = "select profit from customers where date > ".$year."-".$mon."-00 ";
@@ -87,7 +87,7 @@ $con=openDatabase();
         <tr>
           <th style="padding:15px; font-size:20px;color:darkblue;">Profit this year </th>
         <?php
-                  $t1="";
+                  $t1=0;
              $qry = "select profit from customers where date > ".$year."-00-00 ";
              $a = useDatabase($qry);
              while($row = mysqli_fetch_array($a)){
